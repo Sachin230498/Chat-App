@@ -10,7 +10,7 @@ import logo from "../../images/logo.jpeg";
 
 let socket;
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://chat-app-soar.onrender.com/";
 
 const Chat = () => {
     const [id, setid] = useState("");
