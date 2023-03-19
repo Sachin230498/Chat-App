@@ -9,12 +9,12 @@
 
 .chatContainer{
     background-color: white;
-    height: 60%;
-    width: 50%;
+    height: 90%;
+    width: 90%;
 }
 
 .header{
-    background-color: crimson;
+    background-color: gray;
     height: 15%;
    display: flex;
    align-items: center;
@@ -29,17 +29,25 @@
 #logo{
     width: 30px;
     height: 30px;
+    border: 2px solid white;
+    border-radius:8px;
 }
-.header img{
-    
+#logo:hover{
+    border: 1px solid black;
+
+}
+ .header img{
     margin: 2.5vmax;
     transition: all 0.5s;
     cursor: pointer;
 }
-#cancel:hover{
-    transform: scale(1.2);
-    color: aqua;
 
+#cancel{
+    transform: scale(1.5);
+   
+}
+#cancel:hover{
+    transform: scale(2);
 
 }
 
@@ -48,7 +56,11 @@
 
  height: 70%;
  box-sizing: border-box;
- 
+ /* border: 5px solid black; */
+ background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .inputBox{
@@ -67,7 +79,7 @@
     background-color: white;
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2vmax;
+    font-size: 2.5vmax;
     border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
 }
 

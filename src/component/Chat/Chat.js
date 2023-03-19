@@ -6,7 +6,7 @@ import sendLogo from "../../images/send.png";
 import Message from "../Message/Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 import closeIcon from "../../images/closeIcon.png";
-import logo from "../../images/logo.jpeg";
+import logo from "../../images/logo.jpg";
 
 let socket;
 

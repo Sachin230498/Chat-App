@@ -1,5 +1,8 @@
 .JoinPage{
-    background-color: rgb(31, 29, 29);
+    background-image: url(../../images/red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,12 +19,19 @@
     align-items: center;
 }
 
-.JoinContainer > img{
-    width: 10vmax;
+
+#logo1{
+    width: 5vmax;
+    border: 2px solid white;
+    border-radius:15px;
+}
+#logo1:hover{
+    border: 1px solid black;
+
 }
 .JoinContainer > h1{
-    color: white;
-    font-size: 2.5vmax;
+    color: rgb(255, 255, 255);
+    font-size: 3.5vmax;
     width: 25vmax;
     border-bottom: 0.2vmax solid white;
     text-align: center;
